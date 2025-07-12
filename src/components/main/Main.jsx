@@ -8,7 +8,7 @@ const Main = () => {
   const [gender, setGender] = useState("");
   const [occupation, setOccupation] = useState("");
 
-  const [userList, setUserList] = useState([]); // foydalanuvchilar ro'yxati
+  const [userList, setUserList] = useState([]); 
 
   const handleClick = () => {
     const user = {
@@ -20,9 +20,8 @@ const Main = () => {
       occupation,
     };
 
-    setUserList([...userList, user]); // userni ro'yxatga qo'shamiz
+    setUserList([...userList, user]); 
 
-    // inputlarni tozalaymiz
     setFname("");
     setDate("");
     setEmail("");
@@ -32,7 +31,7 @@ const Main = () => {
   };
 
   return (
-    <>
+    <main>
       <div className="container">
         <div className="form">
           <b>register</b>
@@ -108,7 +107,7 @@ const Main = () => {
           </tbody>
         </table>
       </section>
-    </>
+    </main>
   );
 };
 
