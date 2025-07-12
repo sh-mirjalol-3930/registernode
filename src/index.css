@@ -1,0 +1,78 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.form{
+    width: 790px;
+    /* padding: 40px; */
+    /* margin: 0 auto; */
+}
+.form input{
+    width: 300px;
+    border: 1px solid #0003;
+    padding: 10px 40px;
+    color: gray;
+}
+input::placeholder{
+    color: #0003;
+}
+input:focus{
+    outline: none;
+}
+table{
+    width: 650px;
+    margin-top: 50px;
+    color: gray;
+    border: 1px solid #0003;
+
+}
+table thead{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #0003;
+}
+table thead tr{
+    display: flex;
+    /* gap: 20px; */
+    font-size: 14px;
+}
+table thead tr th{
+    width: 130px;
+    padding: 10px 15px;
+    border: 2px solid #0003;
+    font-weight: 500;
+
+}
+table tbody tr{
+    display: flex;
+    /* gap: 20px; */
+}
+table tbody tr td{
+    width: 130px;
+    padding: 10px 15px;
+    border-left: 1px solid #0003;
+
+}
+button{
+    width: 100%;
+    padding: 10px 50px ;
+    border: 1px solid rgba(0, 0, 0, 0.288);
+    color: #0003;
+    background-color: transparent;
+    margin-top: 10px;
+}
+.row{
+    margin-top: 10px;
+}
